@@ -1,11 +1,16 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 501px;
+  min-height: 632px;
 }
 
 .u-section-1 .u-text-1 {
   animation-duration: 1000ms;
   font-family: "Comic Neue";
-  margin: 132px auto 0;
+  margin: 25px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: "Comic Neue";
+  margin: 61px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -16,5 +21,109 @@
   font-weight: 700;
   font-family: "Comic Neue";
   text-transform: none;
-  margin: 262px auto 33px;
+  margin: 61px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  width: 761px;
+  grid-template-rows: auto;
+  margin: 16px auto 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: 50% 50%;
+  min-height: 375px;
+  grid-gap: 0px 0px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 20px 30px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  width: 210px;
+  margin: 19px auto 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 21px 0 0;
+}
+
+.u-section-1 .u-btn-2 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none none solid;
+  text-transform: uppercase;
+  margin: 20px auto 0;
+  padding: 2px 0;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 20px 30px;
+}
+
+.u-section-1 .u-image-2 {
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-5 {
+  width: 210px;
+  margin: 19px auto 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 21px 0 0;
+}
+
+.u-section-1 .u-btn-3 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none none solid;
+  text-transform: uppercase;
+  margin: 20px auto 0;
+  padding: 2px 0;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-list-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-list-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-list-1 {
+    width: 340px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 90px;
+}.u-section-3 .u-sheet-1 {
+  min-height: 82px;
 }
