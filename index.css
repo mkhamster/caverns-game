@@ -1,0 +1,20 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 501px;
+}
+
+.u-section-1 .u-text-1 {
+  animation-duration: 1000ms;
+  font-family: "Comic Neue";
+  margin: 132px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  font-weight: 700;
+  font-family: "Comic Neue";
+  text-transform: none;
+  margin: 262px auto 33px;
+}
